@@ -1,0 +1,161 @@
+/* Basic reset and typography */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4f46e5;
+  padding: 15px 30px;
+  color: #ffffff;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Page container */
+.page-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+}
+
+/* Home links */
+.home-links {
+  margin-top: 20px;
+}
+
+.home-links a {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 8px 16px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.home-links a:hover {
+  background-color: #4338ca;
+}
+
+/* Form styling */
+.form-container {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  background-color: #f8fafc;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #334155;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  color: #1e293b;
+  background-color: #ffffff;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Button styling */
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+  border: 1px solid #4338ca;
+  border-radius: 4px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+button.cancel-btn {
+  background-color: #64748b;
+  border: 1px solid #475569;
+}
+
+button.cancel-btn:hover {
+  background-color: #475569;
+}
+
+button.delete-btn {
+  background-color: #ef4444;
+  border: 1px solid #dc2626;
+}
+
+button.delete-btn:hover {
+  background-color: #dc2626;
+}
+
+/* Card styling */
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  padding: 15px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #0f172a;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #475569;
+}
+
+.card-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
